@@ -1,0 +1,124 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1614850523011-8f49ffc73908?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGdyYWRpZW50fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+
+a {
+    color: white;
+}
+
+header {
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    text-shadow: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1129&q=80);
+    background-size: cover;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;    
+}
+
+menu {
+    width: 100%;
+    overflow: hidden;
+}
+
+ol {
+    color: white;
+    text-decoration: none;
+    width: 67%;
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: azure;
+    text-align: center;
+    padding: 16px;
+}
+
+li a:hover {
+    background-color: rgb(110, 70, 142);
+}
+
+article {
+    text-align: justify;
+    display: block;
+    border-radius: 20px;
+    background-color: rgba(0, 91, 247, 0.533);
+    padding: 16px;
+    color: white;
+}
+
+ hr {
+     opacity: 0;
+ }
+
+img {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+}
+
+footer {
+    text-align: center;
+    display: block;
+    float: none;
+    border-radius: 20px;
+    background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1129&q=80);
+    background-size: cover;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 1px;
+
+}
+
+dl {
+    text-align: justify;
+    list-style-type: square;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+table {
+    text-align: justify;
+    width: 75%;
+    border: 1px solid;
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+
+th {
+    width: 5%;
+    border: 1px solid;
+    text-align: center;
+}
+
+td {
+    width: 5%;
+    border: 1px solid;
+    text-align: justify;
+}
